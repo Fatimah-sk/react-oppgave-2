@@ -1,0 +1,54 @@
+.cookieCard{
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(17,24,39,.06);
+  padding: 18px;
+}
+
+.cookieHeader{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.cookieHeader h2{
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.cookieBtn{
+  width: 100%;
+  border: 0;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: transform .08s ease, background .2s ease;
+}
+
+.cookieBtn:hover{ 
+  background: #f3f4f6;
+ }
+.cookieBtn:active{ 
+  transform: scale(.99);
+}
+
+.cookieImg{
+  width: 260px;
+  height: 367px;
+  display: block;
+}
+
+.cookiePoints{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #111827;
+}
+.cookiePoints b{ 
+    font-size: 18px;
+}

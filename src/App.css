@@ -1,0 +1,26 @@
+.app-page{
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 5px 0 60px;
+}
+
+.app-title{
+  font-size: 34px;
+  letter-spacing: -0.03em;
+  margin-bottom: 18px;
+}
+
+.app-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  align-items: start;
+  height: 100%;
+
+}
+
+@media (max-width: 980px){
+  .app-grid{ grid-template-columns: 1fr; }
+}
+
+

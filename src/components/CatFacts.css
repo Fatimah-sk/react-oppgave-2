@@ -1,0 +1,39 @@
+.catCard{
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(17,24,39,.06);
+  padding: 18px;
+}
+
+.catHeader{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.catHeader h2{ font-size: 18px; }
+
+.catList{
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  overflow: auto;
+  padding-right: 6px;     /* مساحة للسكرول */
+  font-size: 14px;
+}
+
+.catItem{
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 12px;
+  line-height: 1.5;
+  color: #111827;
+}
+
+.catState{
+  color: #6b7280;
+  font-size: 14px;
+}

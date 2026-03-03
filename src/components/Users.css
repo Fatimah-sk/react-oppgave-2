@@ -1,0 +1,74 @@
+.usersCard{
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(17,24,39,.06);
+  padding: 18px;
+}
+
+.usersHeader{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.usersHeader h2{ font-size: 18px; }
+
+.usersForm{
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.usersInput{
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  background: #fff;
+}
+
+.usersInput:focus{
+  border-color: #c7d2fe;
+  box-shadow: 0 0 0 4px rgba(99,102,241,.12);
+}
+
+.usersBtn{
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid #111827;
+  background: #111827;
+  color: #fff;
+  cursor: pointer;
+}
+
+.usersBtn:hover{
+  opacity: .95;
+}
+
+.usersList{
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  max-height: 290px;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.userItem{
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.userName{ 
+   font-weight: 500;
+}
+
+.userEmail{ 
+    color: #6b7280;
+    font-size: 12px;
+    margin-top: 2px;
+}
