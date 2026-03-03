@@ -12,7 +12,7 @@ export default function CookieClicker() {
       </div>
 
       <button className="cookieBtn" onClick={() => setPoints(p => p + 1)}>
-        <img className="cookieImg" src="/cookie.png" alt="Image of a Cookie" />
+        <img className="cookieImg" src="./cookie.png" alt="Image of a Cookie" />
       </button>
 
       <p className="cookiePoints">
